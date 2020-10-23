@@ -92,7 +92,9 @@
  #include <sys/ioctl.h>
 
  #if ! JUCE_ANDROID
+  #if _GLIBC_
   #include <execinfo.h>
+  #endif
  #endif
 #endif
 
