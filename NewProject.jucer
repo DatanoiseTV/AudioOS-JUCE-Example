@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Claoy0" name="NewProject" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="HEgm4q" name="NewProject">
+    <GROUP id="{42C49D92-861F-16E8-B4CF-609A9E4FEEE9}" name="Source">
+      <FILE id="X9Cqof" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="oTwHOa" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="CSpwv7" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Downloads/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
